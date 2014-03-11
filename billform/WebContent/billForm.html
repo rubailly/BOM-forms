@@ -1,0 +1,43 @@
+<htmlform>
+	<!-- BOM form for creating a bill -->
+
+<style>
+
+#billHeader{
+background-color:#009D8E;
+color:white;
+}
+
+table {
+	width: 100%;
+}
+
+table.baseline-aligned td {
+	border: 1px solid black;
+}
+
+tr.spaceUnder>td {
+	padding-bottom: 1em;
+	border: 1px solid white;
+}
+
+</style>
+<span><br/></span>
+<table class="baseline-aligned">
+		<tr class="spaceUnder">
+			    <td>---</td>
+				<td>Date:<encounterDate default="today"/></td>
+				<td>Location:<encounterLocation/></td>
+				<td>Waiter<encounterProvider/></td>
+			</tr>
+		    <tr id="billHeader"><td>Quantity</td><td>Designation</td><td>P.U</td><td>P.T</td></tr>
+			<tr><obsgroup groupingConceptId="d220c17f-2ad8-4e91-b08a-07871ff9c695"><td><obs id="transactionQuantity1" conceptId="68358275-fe30-4860-9c09-84dcc0587145" /></td><td><obs id="transactionItem1" conceptId="f9456bec-ef50-462e-a3d9-10efa7fcb854" labelText="" /></td><td><obs id="transactionUnitPrice1" conceptId="a6e29c4d-74a6-4281-b7db-6ad9a3c7e70a" /></td><td><obs id="transactionTotalPrice1" conceptId="1768d49b-1582-4bb9-937d-f90f2294bb1a" /></td></obsgroup></tr>
+			<tr><obsgroup groupingConceptId="d220c17f-2ad8-4e91-b08a-07871ff9c695"><td><obs id="transactionQuantity2" conceptId="68358275-fe30-4860-9c09-84dcc0587145" /></td><td><obs id="transactionItem2" conceptId="f9456bec-ef50-462e-a3d9-10efa7fcb854" labelText="" /></td><td><obs id="transactionUnitPrice2" conceptId="a6e29c4d-74a6-4281-b7db-6ad9a3c7e70a" /></td><td><obs id="transactionTotalPrice2" conceptId="1768d49b-1582-4bb9-937d-f90f2294bb1a" /></td></obsgroup></tr>
+			<tr><obsgroup groupingConceptId="d220c17f-2ad8-4e91-b08a-07871ff9c695"><td><obs id="transactionQuantity3" conceptId="68358275-fe30-4860-9c09-84dcc0587145" /></td><td><obs id="transactionItem3" conceptId="f9456bec-ef50-462e-a3d9-10efa7fcb854" labelText="" /></td><td><obs id="transactionUnitPrice3" conceptId="a6e29c4d-74a6-4281-b7db-6ad9a3c7e70a" /></td><td><obs id="transactionTotalPrice3" conceptId="1768d49b-1582-4bb9-937d-f90f2294bb1a" /></td></obsgroup></tr>
+			<tr><obsgroup groupingConceptId="d220c17f-2ad8-4e91-b08a-07871ff9c695"><td><obs id="transactionQuantity4" conceptId="68358275-fe30-4860-9c09-84dcc0587145" /></td><td><obs id="transactionItem4" conceptId="f9456bec-ef50-462e-a3d9-10efa7fcb854" labelText="" /></td><td><obs id="transactionUnitPrice4" conceptId="a6e29c4d-74a6-4281-b7db-6ad9a3c7e70a" /></td><td><obs id="transactionTotalPrice4" conceptId="1768d49b-1582-4bb9-937d-f90f2294bb1a" /></td></obsgroup></tr>
+			<tr><obsgroup groupingConceptId="d220c17f-2ad8-4e91-b08a-07871ff9c695"><td><obs id="transactionQuantity5" conceptId="68358275-fe30-4860-9c09-84dcc0587145" /></td><td><obs id="transactionItem5" conceptId="f9456bec-ef50-462e-a3d9-10efa7fcb854" labelText="" /></td><td><obs id="transactionUnitPrice5" conceptId="a6e29c4d-74a6-4281-b7db-6ad9a3c7e70a" /></td><td><obs id="transactionTotalPrice5" conceptId="1768d49b-1582-4bb9-937d-f90f2294bb1a" /></td></obsgroup></tr>			
+			<tr><td style="border: 1px solid white;"></td><td style="border: 1px solid white;"></td><td style="border: 1px solid white;text-align: right;">Total:</td><td><obs id="billTotalPrice" conceptId="57e06f0e-cc79-45fd-aa5a-556f072bb1ce" /></td></tr>				
+		</table>
+
+	<submit/>
+</htmlform>
